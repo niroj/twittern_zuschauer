@@ -1,8 +1,86 @@
 ---
 http_interactions:
 - request:
+    method: post
+    uri: https://api.twitter.com/oauth2/token
+    body:
+      encoding: UTF-8
+      string: grant_type=client_credentials
+    headers:
+      User-Agent:
+      - TwitterRubyGem/6.2.0
+      Accept:
+      - "*/*"
+      Authorization:
+      - Basic a0Q4YmZETmJQTjhFVkk3bGZaazAySHFOYjplTW1SOEdVN09IM05DZ201QzRkNzEzOUpKUEJSbnBoS0t1S3JwdVJ0NUhKZlk1bnFkTQ==
+      Connection:
+      - close
+      Content-Type:
+      - application/x-www-form-urlencoded
+      Host:
+      - api.twitter.com
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Cache-Control:
+      - no-cache, no-store, must-revalidate, pre-check=0, post-check=0
+      Connection:
+      - close
+      Content-Disposition:
+      - attachment; filename=json.json
+      Content-Length:
+      - '153'
+      Content-Type:
+      - application/json;charset=utf-8
+      Date:
+      - Sat, 07 Jul 2018 07:54:10 GMT
+      Expires:
+      - Tue, 31 Mar 1981 05:00:00 GMT
+      Last-Modified:
+      - Sat, 07 Jul 2018 07:54:10 GMT
+      Ml:
+      - A
+      Pragma:
+      - no-cache
+      Server:
+      - tsa_n
+      Set-Cookie:
+      - guest_id=v1%3A153095005064115666; Expires=Mon, 06 Jul 2020 07:54:10 GMT; Path=/;
+        Domain=.twitter.com
+      - personalization_id="v1_rzTsA7QCmYxZ7Avtg6CSXg=="; Expires=Mon, 06 Jul 2020
+        07:54:10 GMT; Path=/; Domain=.twitter.com
+      Status:
+      - 200 OK
+      Strict-Transport-Security:
+      - max-age=631138519
+      X-Connection-Hash:
+      - 94f724ccde03dd1746b6444558fd0930
+      X-Content-Type-Options:
+      - nosniff
+      X-Frame-Options:
+      - DENY
+      X-Response-Time:
+      - '253'
+      X-Transaction:
+      - 00a14c61003f617d
+      X-Tsa-Request-Body-Time:
+      - '0'
+      X-Twitter-Response-Tags:
+      - BouncerCompliant
+      X-Ua-Compatible:
+      - IE=edge,chrome=1
+      X-Xss-Protection:
+      - 1; mode=block; report=https://twitter.com/i/xss_report
+    body:
+      encoding: UTF-8
+      string: '{"token_type":"bearer","access_token":"AAAAAAAAAAAAAAAAAAAAALTY6wAAAAAAb5OwnqDNhdJ9RYLdqr1xywMS7M4%3DY9QPdd7qik7qo7B3DHo4CPVZUMvfdsXPCXHuzuqGYY5etf8biA"}'
+    http_version: 
+  recorded_at: Sat, 07 Jul 2018 07:54:11 GMT
+- request:
     method: get
-    uri: https://api.twitter.com/1.1/search/tweets.json?count=100&q=futurumafuturuma&result_type=mixed
+    uri: https://api.twitter.com/1.1/search/tweets.json?count=100&q=gibberishgibberish&result_type=mixed
     body:
       encoding: UTF-8
       string: ''
@@ -27,24 +105,24 @@ http_interactions:
       Content-Disposition:
       - attachment; filename=json.json
       Content-Length:
-      - '293'
+      - '297'
       Content-Type:
       - application/json;charset=utf-8
       Date:
-      - Fri, 06 Jul 2018 11:51:47 GMT
+      - Sat, 07 Jul 2018 07:54:12 GMT
       Expires:
       - Tue, 31 Mar 1981 05:00:00 GMT
       Last-Modified:
-      - Fri, 06 Jul 2018 11:51:47 GMT
+      - Sat, 07 Jul 2018 07:54:12 GMT
       Pragma:
       - no-cache
       Server:
-      - tsa_f
+      - tsa_n
       Set-Cookie:
-      - guest_id=v1%3A153087790788155043; Expires=Sun, 05 Jul 2020 11:51:47 GMT; Path=/;
+      - guest_id=v1%3A153095005222794680; Expires=Mon, 06 Jul 2020 07:54:12 GMT; Path=/;
         Domain=.twitter.com
-      - personalization_id="v1_KCPj71g1H01XxORRZbyRDg=="; Expires=Sun, 05 Jul 2020
-        11:51:47 GMT; Path=/; Domain=.twitter.com
+      - personalization_id="v1_YC69ulzpF1K6mNu4DHjHtQ=="; Expires=Mon, 06 Jul 2020
+        07:54:12 GMT; Path=/; Domain=.twitter.com
       Status:
       - 200 OK
       Strict-Transport-Security:
@@ -52,7 +130,7 @@ http_interactions:
       X-Access-Level:
       - read
       X-Connection-Hash:
-      - f5ef98d6635453f0c24aa3bb6790f903
+      - 70961a64ec405f7f970eb6446a2629cb
       X-Content-Type-Options:
       - nosniff
       X-Frame-Options:
@@ -60,20 +138,20 @@ http_interactions:
       X-Rate-Limit-Limit:
       - '450'
       X-Rate-Limit-Remaining:
-      - '447'
+      - '448'
       X-Rate-Limit-Reset:
-      - '1530878695'
+      - '1530950895'
       X-Response-Time:
-      - '136'
+      - '259'
       X-Transaction:
-      - '001268900086378c'
+      - 0075fd0f005ca083
       X-Twitter-Response-Tags:
       - BouncerCompliant
       X-Xss-Protection:
       - 1; mode=block; report=https://twitter.com/i/xss_report
     body:
       encoding: UTF-8
-      string: '{"statuses":[],"search_metadata":{"completed_in":0.014,"max_id":1015201582651043840,"max_id_str":"1015201582651043840","query":"futurumafuturuma","refresh_url":"?since_id=1015201582651043840&q=futurumafuturuma&result_type=mixed&include_entities=1","count":100,"since_id":0,"since_id_str":"0"}}'
+      string: '{"statuses":[],"search_metadata":{"completed_in":0.013,"max_id":1015504173838864384,"max_id_str":"1015504173838864384","query":"gibberishgibberish","refresh_url":"?since_id=1015504173838864384&q=gibberishgibberish&result_type=mixed&include_entities=1","count":100,"since_id":0,"since_id_str":"0"}}'
     http_version: 
-  recorded_at: Fri, 06 Jul 2018 11:51:48 GMT
+  recorded_at: Sat, 07 Jul 2018 07:54:12 GMT
 recorded_with: VCR 4.0.0

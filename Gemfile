@@ -12,7 +12,6 @@ gem 'twitter'
 
 group :development, :test do
   gem 'pry-rails'
-  gem 'faker'
   gem 'rspec-rails'
 end
 

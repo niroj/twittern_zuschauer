@@ -35,38 +35,38 @@ http_interactions:
       Content-Type:
       - application/json;charset=utf-8
       Date:
-      - Fri, 06 Jul 2018 11:50:59 GMT
+      - Sat, 07 Jul 2018 07:48:24 GMT
       Expires:
       - Tue, 31 Mar 1981 05:00:00 GMT
       Last-Modified:
-      - Fri, 06 Jul 2018 11:50:59 GMT
+      - Sat, 07 Jul 2018 07:48:24 GMT
       Ml:
       - A
       Pragma:
       - no-cache
       Server:
-      - tsa_f
+      - tsa_n
       Set-Cookie:
-      - guest_id=v1%3A153087785919775786; Expires=Sun, 05 Jul 2020 11:50:59 GMT; Path=/;
+      - guest_id=v1%3A153094970438533212; Expires=Mon, 06 Jul 2020 07:48:24 GMT; Path=/;
         Domain=.twitter.com
-      - personalization_id="v1_eo1iFI90sEHiGCi3J6gWHg=="; Expires=Sun, 05 Jul 2020
-        11:50:59 GMT; Path=/; Domain=.twitter.com
+      - personalization_id="v1_gsg1JLn55/IJofeYFIsQoA=="; Expires=Mon, 06 Jul 2020
+        07:48:24 GMT; Path=/; Domain=.twitter.com
       Status:
       - 200 OK
       Strict-Transport-Security:
       - max-age=631138519
       X-Connection-Hash:
-      - 780e5719c011ec3bf726ea58e0630e40
+      - eee952e6c50d68cb8da2fe8758f58cf2
       X-Content-Type-Options:
       - nosniff
       X-Frame-Options:
       - DENY
       X-Response-Time:
-      - '117'
+      - '253'
       X-Transaction:
-      - 00e43a9800b78232
+      - '0087e0b100f57fce'
       X-Tsa-Request-Body-Time:
-      - '1'
+      - '0'
       X-Twitter-Response-Tags:
       - BouncerCompliant
       X-Ua-Compatible:
@@ -77,7 +77,7 @@ http_interactions:
       encoding: UTF-8
       string: '{"token_type":"bearer","access_token":"AAAAAAAAAAAAAAAAAAAAALTY6wAAAAAAb5OwnqDNhdJ9RYLdqr1xywMS7M4%3DY9QPdd7qik7qo7B3DHo4CPVZUMvfdsXPCXHuzuqGYY5etf8biA"}'
     http_version: 
-  recorded_at: Fri, 06 Jul 2018 11:50:59 GMT
+  recorded_at: Sat, 07 Jul 2018 07:48:24 GMT
 - request:
     method: get
     uri: https://api.twitter.com/1.1/search/tweets.json?count=100&q=futuruma&result_type=mixed
@@ -109,20 +109,20 @@ http_interactions:
       Content-Type:
       - application/json;charset=utf-8
       Date:
-      - Fri, 06 Jul 2018 11:51:00 GMT
+      - Sat, 07 Jul 2018 07:48:25 GMT
       Expires:
       - Tue, 31 Mar 1981 05:00:00 GMT
       Last-Modified:
-      - Fri, 06 Jul 2018 11:51:00 GMT
+      - Sat, 07 Jul 2018 07:48:25 GMT
       Pragma:
       - no-cache
       Server:
-      - tsa_f
+      - tsa_n
       Set-Cookie:
-      - guest_id=v1%3A153087786010385135; Expires=Sun, 05 Jul 2020 11:51:00 GMT; Path=/;
+      - guest_id=v1%3A153094970515901987; Expires=Mon, 06 Jul 2020 07:48:25 GMT; Path=/;
         Domain=.twitter.com
-      - personalization_id="v1_ceLTs3RvU2ZqbfDB2/UFSQ=="; Expires=Sun, 05 Jul 2020
-        11:51:00 GMT; Path=/; Domain=.twitter.com
+      - personalization_id="v1_Uscy0tm+eWcP+aTXu0hJ2g=="; Expires=Mon, 06 Jul 2020
+        07:48:25 GMT; Path=/; Domain=.twitter.com
       Status:
       - 200 OK
       Strict-Transport-Security:
@@ -130,7 +130,7 @@ http_interactions:
       X-Access-Level:
       - read
       X-Connection-Hash:
-      - 9874026471c13168c090ea33edce10b1
+      - 8601a2934f84b9735b808c61dc788b21
       X-Content-Type-Options:
       - nosniff
       X-Frame-Options:
@@ -138,13 +138,13 @@ http_interactions:
       X-Rate-Limit-Limit:
       - '450'
       X-Rate-Limit-Remaining:
-      - '448'
+      - '446'
       X-Rate-Limit-Reset:
-      - '1530878695'
+      - '1530949902'
       X-Response-Time:
-      - '197'
+      - '313'
       X-Transaction:
-      - 00b6121500e11b19
+      - 003c350b00f45170
       X-Twitter-Response-Tags:
       - BouncerCompliant
       X-Xss-Protection:
@@ -165,22 +165,22 @@ http_interactions:
         href=\"http:\/\/twitter.com\/download\/iphone\" rel=\"nofollow\"\u003eTwitter
         for iPhone\u003c\/a\u003e","in_reply_to_status_id":null,"in_reply_to_status_id_str":null,"in_reply_to_user_id":null,"in_reply_to_user_id_str":null,"in_reply_to_screen_name":null,"user":{"id":921101085414010880,"id_str":"921101085414010880","name":"\ud83c\udff3\ufe0f\u200d\ud83c\udf08","screen_name":"outrocrackhead","location":"i-army
         \ud83d\udd1e","description":"probably one of the five people on this site
-        who actually like bts edm \ud83d\ude14\u270a\ud83c\udffc","url":null,"entities":{"description":{"urls":[]}},"protected":false,"followers_count":30,"friends_count":47,"listed_count":0,"created_at":"Thu
-        Oct 19 19:49:46 +0000 2017","favourites_count":785,"utc_offset":null,"time_zone":null,"geo_enabled":false,"verified":false,"statuses_count":5032,"lang":"en","contributors_enabled":false,"is_translator":false,"is_translation_enabled":false,"profile_background_color":"000000","profile_background_image_url":"http:\/\/abs.twimg.com\/images\/themes\/theme1\/bg.png","profile_background_image_url_https":"https:\/\/abs.twimg.com\/images\/themes\/theme1\/bg.png","profile_background_tile":false,"profile_image_url":"http:\/\/pbs.twimg.com\/profile_images\/1010515847201189888\/0433oWeT_normal.jpg","profile_image_url_https":"https:\/\/pbs.twimg.com\/profile_images\/1010515847201189888\/0433oWeT_normal.jpg","profile_banner_url":"https:\/\/pbs.twimg.com\/profile_banners\/921101085414010880\/1525795808","profile_link_color":"91D2FA","profile_sidebar_border_color":"000000","profile_sidebar_fill_color":"000000","profile_text_color":"000000","profile_use_background_image":false,"has_extended_profile":true,"default_profile":false,"default_profile_image":false,"following":null,"follow_request_sent":null,"notifications":null,"translator_type":"none"},"geo":null,"coordinates":null,"place":null,"contributors":null,"is_quote_status":false,"retweet_count":0,"favorite_count":0,"favorited":false,"retweeted":false,"lang":"en"},{"created_at":"Fri
+        who actually like bts edm \ud83d\ude14\u270a\ud83c\udffc","url":null,"entities":{"description":{"urls":[]}},"protected":false,"followers_count":30,"friends_count":48,"listed_count":0,"created_at":"Thu
+        Oct 19 19:49:46 +0000 2017","favourites_count":791,"utc_offset":null,"time_zone":null,"geo_enabled":false,"verified":false,"statuses_count":5068,"lang":"en","contributors_enabled":false,"is_translator":false,"is_translation_enabled":false,"profile_background_color":"000000","profile_background_image_url":"http:\/\/abs.twimg.com\/images\/themes\/theme1\/bg.png","profile_background_image_url_https":"https:\/\/abs.twimg.com\/images\/themes\/theme1\/bg.png","profile_background_tile":false,"profile_image_url":"http:\/\/pbs.twimg.com\/profile_images\/1010515847201189888\/0433oWeT_normal.jpg","profile_image_url_https":"https:\/\/pbs.twimg.com\/profile_images\/1010515847201189888\/0433oWeT_normal.jpg","profile_banner_url":"https:\/\/pbs.twimg.com\/profile_banners\/921101085414010880\/1525795808","profile_link_color":"91D2FA","profile_sidebar_border_color":"000000","profile_sidebar_fill_color":"000000","profile_text_color":"000000","profile_use_background_image":false,"has_extended_profile":true,"default_profile":false,"default_profile_image":false,"following":null,"follow_request_sent":null,"notifications":null,"translator_type":"none"},"geo":null,"coordinates":null,"place":null,"contributors":null,"is_quote_status":false,"retweet_count":0,"favorite_count":0,"favorited":false,"retweeted":false,"lang":"en"},{"created_at":"Fri
         Jun 29 04:38:14 +0000 2018","id":1012555820628889607,"id_str":"1012555820628889607","text":"#ndc
         me pajeaba con la de futuruma q tenia un ojo porque se le veia un poco las
         tetas","truncated":false,"entities":{"hashtags":[{"text":"ndc","indices":[0,4]}],"symbols":[],"user_mentions":[],"urls":[]},"metadata":{"iso_language_code":"es","result_type":"recent"},"source":"\u003ca
         href=\"http:\/\/twitter.com\/download\/iphone\" rel=\"nofollow\"\u003eTwitter
         for iPhone\u003c\/a\u003e","in_reply_to_status_id":null,"in_reply_to_status_id_str":null,"in_reply_to_user_id":null,"in_reply_to_user_id_str":null,"in_reply_to_screen_name":null,"user":{"id":2400992855,"id_str":"2400992855","name":"jabari","screen_name":"_RodriMayolas14","location":"gran
         parque central","description":"estamos llenos de historia #53774 la beriso
-        LJ","url":null,"entities":{"description":{"urls":[]}},"protected":false,"followers_count":1444,"friends_count":778,"listed_count":10,"created_at":"Tue
-        Mar 11 02:28:50 +0000 2014","favourites_count":4386,"utc_offset":null,"time_zone":null,"geo_enabled":true,"verified":false,"statuses_count":75378,"lang":"es","contributors_enabled":false,"is_translator":false,"is_translation_enabled":false,"profile_background_color":"120AFA","profile_background_image_url":"http:\/\/abs.twimg.com\/images\/themes\/theme1\/bg.png","profile_background_image_url_https":"https:\/\/abs.twimg.com\/images\/themes\/theme1\/bg.png","profile_background_tile":true,"profile_image_url":"http:\/\/pbs.twimg.com\/profile_images\/1011771295653122048\/vULTovp6_normal.jpg","profile_image_url_https":"https:\/\/pbs.twimg.com\/profile_images\/1011771295653122048\/vULTovp6_normal.jpg","profile_banner_url":"https:\/\/pbs.twimg.com\/profile_banners\/2400992855\/1521214517","profile_link_color":"0F1AFA","profile_sidebar_border_color":"FFFFFF","profile_sidebar_fill_color":"DDEEF6","profile_text_color":"333333","profile_use_background_image":true,"has_extended_profile":true,"default_profile":false,"default_profile_image":false,"following":null,"follow_request_sent":null,"notifications":null,"translator_type":"none"},"geo":null,"coordinates":null,"place":null,"contributors":null,"is_quote_status":false,"retweet_count":0,"favorite_count":1,"favorited":false,"retweeted":false,"lang":"es"},{"created_at":"Thu
+        LJ","url":null,"entities":{"description":{"urls":[]}},"protected":false,"followers_count":1443,"friends_count":776,"listed_count":10,"created_at":"Tue
+        Mar 11 02:28:50 +0000 2014","favourites_count":4386,"utc_offset":null,"time_zone":null,"geo_enabled":true,"verified":false,"statuses_count":75385,"lang":"es","contributors_enabled":false,"is_translator":false,"is_translation_enabled":false,"profile_background_color":"120AFA","profile_background_image_url":"http:\/\/abs.twimg.com\/images\/themes\/theme1\/bg.png","profile_background_image_url_https":"https:\/\/abs.twimg.com\/images\/themes\/theme1\/bg.png","profile_background_tile":true,"profile_image_url":"http:\/\/pbs.twimg.com\/profile_images\/1011771295653122048\/vULTovp6_normal.jpg","profile_image_url_https":"https:\/\/pbs.twimg.com\/profile_images\/1011771295653122048\/vULTovp6_normal.jpg","profile_banner_url":"https:\/\/pbs.twimg.com\/profile_banners\/2400992855\/1521214517","profile_link_color":"0F1AFA","profile_sidebar_border_color":"FFFFFF","profile_sidebar_fill_color":"DDEEF6","profile_text_color":"333333","profile_use_background_image":true,"has_extended_profile":true,"default_profile":false,"default_profile_image":false,"following":null,"follow_request_sent":null,"notifications":null,"translator_type":"none"},"geo":null,"coordinates":null,"place":null,"contributors":null,"is_quote_status":false,"retweet_count":0,"favorite_count":1,"favorited":false,"retweeted":false,"lang":"es"},{"created_at":"Thu
         Jun 28 03:29:47 +0000 2018","id":1012176204462415872,"id_str":"1012176204462415872","text":"@IGN
         Futuruma just because of that one episode where i was chopping onion, and
         it rains too","truncated":false,"entities":{"hashtags":[],"symbols":[],"user_mentions":[{"screen_name":"IGN","name":"IGN","id":18927441,"id_str":"18927441","indices":[0,4]}],"urls":[]},"metadata":{"iso_language_code":"en","result_type":"recent"},"source":"\u003ca
         href=\"http:\/\/twitter.com\/download\/android\" rel=\"nofollow\"\u003eTwitter
         for Android\u003c\/a\u003e","in_reply_to_status_id":1012116395872702466,"in_reply_to_status_id_str":"1012116395872702466","in_reply_to_user_id":18927441,"in_reply_to_user_id_str":"18927441","in_reply_to_screen_name":"IGN","user":{"id":931778221183442944,"id_str":"931778221183442944","name":"Overshaw","screen_name":"DidntReallyCare","location":"","description":"","url":null,"entities":{"description":{"urls":[]}},"protected":false,"followers_count":6,"friends_count":138,"listed_count":0,"created_at":"Sat
-        Nov 18 06:56:54 +0000 2017","favourites_count":85,"utc_offset":null,"time_zone":null,"geo_enabled":false,"verified":false,"statuses_count":154,"lang":"en","contributors_enabled":false,"is_translator":false,"is_translation_enabled":false,"profile_background_color":"F5F8FA","profile_background_image_url":null,"profile_background_image_url_https":null,"profile_background_tile":false,"profile_image_url":"http:\/\/abs.twimg.com\/sticky\/default_profile_images\/default_profile_normal.png","profile_image_url_https":"https:\/\/abs.twimg.com\/sticky\/default_profile_images\/default_profile_normal.png","profile_link_color":"1DA1F2","profile_sidebar_border_color":"C0DEED","profile_sidebar_fill_color":"DDEEF6","profile_text_color":"333333","profile_use_background_image":true,"has_extended_profile":false,"default_profile":true,"default_profile_image":true,"following":null,"follow_request_sent":null,"notifications":null,"translator_type":"none"},"geo":null,"coordinates":null,"place":null,"contributors":null,"is_quote_status":false,"retweet_count":0,"favorite_count":0,"favorited":false,"retweeted":false,"lang":"en"}],"search_metadata":{"completed_in":0.069,"max_id":1014213671827001345,"max_id_str":"1014213671827001345","query":"futuruma","refresh_url":"?since_id=1014213671827001345&q=futuruma&result_type=mixed&include_entities=1","count":100,"since_id":0,"since_id_str":"0"}}'
+        Nov 18 06:56:54 +0000 2017","favourites_count":85,"utc_offset":null,"time_zone":null,"geo_enabled":false,"verified":false,"statuses_count":154,"lang":"en","contributors_enabled":false,"is_translator":false,"is_translation_enabled":false,"profile_background_color":"F5F8FA","profile_background_image_url":null,"profile_background_image_url_https":null,"profile_background_tile":false,"profile_image_url":"http:\/\/abs.twimg.com\/sticky\/default_profile_images\/default_profile_normal.png","profile_image_url_https":"https:\/\/abs.twimg.com\/sticky\/default_profile_images\/default_profile_normal.png","profile_link_color":"1DA1F2","profile_sidebar_border_color":"C0DEED","profile_sidebar_fill_color":"DDEEF6","profile_text_color":"333333","profile_use_background_image":true,"has_extended_profile":false,"default_profile":true,"default_profile_image":true,"following":null,"follow_request_sent":null,"notifications":null,"translator_type":"none"},"geo":null,"coordinates":null,"place":null,"contributors":null,"is_quote_status":false,"retweet_count":0,"favorite_count":0,"favorited":false,"retweeted":false,"lang":"en"}],"search_metadata":{"completed_in":0.028,"max_id":1014213671827001345,"max_id_str":"1014213671827001345","query":"futuruma","refresh_url":"?since_id=1014213671827001345&q=futuruma&result_type=mixed&include_entities=1","count":100,"since_id":0,"since_id_str":"0"}}'
     http_version: 
-  recorded_at: Fri, 06 Jul 2018 11:51:00 GMT
+  recorded_at: Sat, 07 Jul 2018 07:48:25 GMT
 recorded_with: VCR 4.0.0
