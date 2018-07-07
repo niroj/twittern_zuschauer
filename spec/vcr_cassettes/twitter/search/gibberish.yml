@@ -1,0 +1,79 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://api.twitter.com/1.1/search/tweets.json?count=100&q=futurumafuturuma&result_type=mixed
+    body:
+      encoding: UTF-8
+      string: ''
+    headers:
+      User-Agent:
+      - TwitterRubyGem/6.2.0
+      Authorization:
+      - Bearer AAAAAAAAAAAAAAAAAAAAALTY6wAAAAAAb5OwnqDNhdJ9RYLdqr1xywMS7M4%3DY9QPdd7qik7qo7B3DHo4CPVZUMvfdsXPCXHuzuqGYY5etf8biA
+      Connection:
+      - close
+      Host:
+      - api.twitter.com
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Cache-Control:
+      - no-cache, no-store, must-revalidate, pre-check=0, post-check=0
+      Connection:
+      - close
+      Content-Disposition:
+      - attachment; filename=json.json
+      Content-Length:
+      - '293'
+      Content-Type:
+      - application/json;charset=utf-8
+      Date:
+      - Fri, 06 Jul 2018 11:51:47 GMT
+      Expires:
+      - Tue, 31 Mar 1981 05:00:00 GMT
+      Last-Modified:
+      - Fri, 06 Jul 2018 11:51:47 GMT
+      Pragma:
+      - no-cache
+      Server:
+      - tsa_f
+      Set-Cookie:
+      - guest_id=v1%3A153087790788155043; Expires=Sun, 05 Jul 2020 11:51:47 GMT; Path=/;
+        Domain=.twitter.com
+      - personalization_id="v1_KCPj71g1H01XxORRZbyRDg=="; Expires=Sun, 05 Jul 2020
+        11:51:47 GMT; Path=/; Domain=.twitter.com
+      Status:
+      - 200 OK
+      Strict-Transport-Security:
+      - max-age=631138519
+      X-Access-Level:
+      - read
+      X-Connection-Hash:
+      - f5ef98d6635453f0c24aa3bb6790f903
+      X-Content-Type-Options:
+      - nosniff
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Rate-Limit-Limit:
+      - '450'
+      X-Rate-Limit-Remaining:
+      - '447'
+      X-Rate-Limit-Reset:
+      - '1530878695'
+      X-Response-Time:
+      - '136'
+      X-Transaction:
+      - '001268900086378c'
+      X-Twitter-Response-Tags:
+      - BouncerCompliant
+      X-Xss-Protection:
+      - 1; mode=block; report=https://twitter.com/i/xss_report
+    body:
+      encoding: UTF-8
+      string: '{"statuses":[],"search_metadata":{"completed_in":0.014,"max_id":1015201582651043840,"max_id_str":"1015201582651043840","query":"futurumafuturuma","refresh_url":"?since_id=1015201582651043840&q=futurumafuturuma&result_type=mixed&include_entities=1","count":100,"since_id":0,"since_id_str":"0"}}'
+    http_version: 
+  recorded_at: Fri, 06 Jul 2018 11:51:48 GMT
+recorded_with: VCR 4.0.0
