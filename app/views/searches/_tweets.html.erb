@@ -1,0 +1,13 @@
+<% if tweets.present? %>
+  <% tweets.each do |tweet| %>
+    <%= link_to tweet.url.to_s, class: 'list-group-item list-group-item-action flex-column align-items-start', target: '_blank' do %>
+      <p class="mb-1"><%= raw tweet.full_text %></p>
+      <div class="d-flex w-100 justify-content-between">
+        <small class="text-muted"><%= tweet.user.name %></small>
+        <small class="text-muted"><%= time_ago_in_words(tweet.created_at) %></small>
+      </div>
+    <% end %>
+  <% end %>
+<% else %>
+  <p>Your search didn't return any result. Please adjust your search parameters and try again.</p>
+<% end %>

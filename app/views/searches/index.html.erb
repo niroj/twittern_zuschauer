@@ -1,0 +1,19 @@
+<!-- Page Content -->
+<div class="container">
+  <div class="row">
+    <div class="col-lg-12 text-center">
+      <h1>Tweets Viewer</h1>
+      <%= form_tag searches_path, remote: true, method: :get, class: 'tweets_search_form' do %>
+        <div class="form-group">
+          <%= text_field_tag :q, @q, class: 'form-control text-center', placeholder: 'Search for ...' %>
+          <small class="form-text text-muted">Press enter to search for tweets</small>
+        </div>
+      <% end %>
+    </div>
+    <div class="col-lg-12">
+      <div class="list-group tweets">
+        <%= render partial: 'tweets', locals: { tweets: @tweets } if @q.present? %>
+      </div>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,3 @@
+$('.tweets').html("<%= j render(partial: 'tweets', locals: { tweets: @tweets }) %>");
+
+window.history.replaceState(null, '', '<%= searches_path(q: params[:q]) %>');

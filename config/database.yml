@@ -44,8 +44,6 @@ test:
   encoding: unicode
   database: twittern_zuschauer_test
   pool:     5
-  username: root
-  password:
   template: template0
 
 production:
