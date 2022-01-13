@@ -2,8 +2,8 @@ Twittern Zuschauer
 ================
 This application requires:
 
-- Ruby 2.5.0
-- Rails 5.2.0
+- Ruby 3.0.0
+- Rails 6.1.4.4
 
 Getting Started
 ---------------
